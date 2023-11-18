@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+header > h1 {
+    font: normal 27pt Arial;
+    color: white;
+}
+
+main {
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+    padding: 15px;
+}
+
+main > div#msg {
+    font: normal 17pt Arial;
+}
+
+main > div#imagem > img {
+    border-radius: 50%;
+    padding: 25px;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+}
