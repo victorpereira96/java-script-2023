@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgba(57, 57, 224, 0.74);
+}
+
+header > h1 {
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+main {
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 95vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+}
+
+main p {
+    padding: 15px 10px;
+}
+
+main > div#form {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+main > div#form > input {
+    margin: 15px 0px;
+    width: 130px;
+}
+
+main > div#form > input#contar {
+    width: 60px;
+    height: 25px;
+}
+
+footer {
+    color: white;
+    margin: 15px;
+    text-align: center;
+}

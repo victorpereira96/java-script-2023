@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <div id="form">
+            <label for="inicio">Início:</label>
+            <input type="number" name="inicio" id="inicio">
+            <br>
+            <label for="fim">Fim:</label>
+            <input type="number" name="fim" id="fim">
+            <br>
+            <label for="passo">Passo:</label>
+            <input type="number" name="passo" id="passo">
+            <br>
+            <input type="button" value="Contar" id="contar" onclick="contar()">
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; VictorPereira</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
