@@ -25,14 +25,8 @@ main {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
 }
 
-main p {
-    padding: 15px 10px;
-}
-
-main > div#res > img#foto {
-    width: 250px;
-    border-radius: 50%;
-    margin: 15px;
+main > div {
+    padding: 20px 10px;
 }
 
 footer {
